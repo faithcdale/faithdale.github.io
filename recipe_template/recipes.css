@@ -1,0 +1,50 @@
+.ingredients{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    width: 90vw;
+    padding-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: large;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+ol {
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.pic-food {
+    max-width: 90vw;
+    max-height: 40vh;
+}
+
+.food-description{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 4vw 1vh 4vw;
+    width: 45vw;
+}
+
+img {
+    padding: 1vh 1vw 1vh 1vw;
+}
